@@ -12,7 +12,7 @@ def get_files():
 		extensions = []
 		all_files = []
 		for i in all_dir_files:
-			if os.path.isfile(i) and i != 'org.py':
+			if os.path.isfile(i) and i != 'organize.py':
 				ext = i.split('.')[-1]
 				extensions.append(ext)
 				all_files.append(i)
